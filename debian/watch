@@ -1,0 +1,2 @@
+version=3
+https://github.com/JoseExposito/touchegg/tags .*/(\d[\d\.]+)\.tar\.gz

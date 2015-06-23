@@ -1,0 +1,42 @@
+Source: touchegg
+Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
+Section: system
+Priority: optional
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 8), libqt4-dev, libgeis-dev, libx11-dev,
+ libxtst-dev, qt4-qmake
+
+Package: touchegg
+Architecture: i386 amd64
+Depends: ${misc:Depends}, libqtgui4
+Description: Multi-touch gestures recognizers.
+ Touchégg initially going to be designed to provide Egg Window Manager
+ window management through gestures, but eventually I decided to extend
+ this funcionality, so Touchégg is compatible with any window manager,
+ and providing more options.
+ .
+ So Touchégg is a multi-touch gestures recognizer written in C + + using
+ the Qt 4 and utouch-geis.
+ .
+ Through a simple configuration file you can attach an action to a particular
+ gesture, and you can, by gestures on the trackpad, maximize or minimize
+ windows, resize, show the desktop, emulate all mouse functions, and more.
+
+
+Package: touchegg-gui
+Architecture: i386 amd64
+Depends: ${misc:Depends}, libqtgui4
+Description: Multi-touch gestures recognizers.
+ Touchégg initially going to be designed to provide Egg Window Manager
+ window management through gestures, but eventually I decided to extend
+ this funcionality, so Touchégg is compatible with any window manager,
+ and providing more options.
+ .
+ So Touchégg is a multi-touch gestures recognizer written in C + + using
+ the Qt 4 and utouch-geis.
+ .
+ Through a simple configuration file you can attach an action to a particular
+ gesture, and you can, by gestures on the trackpad, maximize or minimize
+ windows, resize, show the desktop, emulate all mouse functions, and more.
+ .
+ This package have a gui tool to configure Touchégg.
