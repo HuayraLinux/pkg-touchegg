@@ -1,6 +1,6 @@
 Source: touchegg
 Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
-Section: system
+Section: main
 Priority: optional
 Standards-Version: 3.9.3
 Build-Depends: debhelper (>= 8), libqt4-dev, libgeis-dev, libx11-dev,
@@ -8,7 +8,7 @@ Build-Depends: debhelper (>= 8), libqt4-dev, libgeis-dev, libx11-dev,
 
 Package: touchegg
 Architecture: i386 amd64
-Depends: ${misc:Depends}, libqtgui4
+Depends: ${misc:Depends}, libqtgui4, libgeis1
 Description: Multi-touch gestures recognizers.
  Touchégg initially going to be designed to provide Egg Window Manager
  window management through gestures, but eventually I decided to extend
@@ -26,7 +26,7 @@ Description: Multi-touch gestures recognizers.
 Package: touchegg-gui
 Architecture: i386 amd64
 Depends: ${misc:Depends}, libqtgui4
-Description: Multi-touch gestures recognizers.
+Description: Multi-touch gestures recognizers GUI config tool.
  Touchégg initially going to be designed to provide Egg Window Manager
  window management through gestures, but eventually I decided to extend
  this funcionality, so Touchégg is compatible with any window manager,
